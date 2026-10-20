@@ -255,21 +255,15 @@ export function App() {
           )}
 
           <div className="flex items-center gap-2">
-            <div
-              className={`border-3 border-black px-2.5 py-1 text-xs font-black display-font uppercase flex items-center gap-1 transition-all ${
-                streak > 0
-                  ? 'bg-black text-[#80FF44] shadow-[3px_3px_0px_#910a0a]'
-                  : 'bg-[#faf8f4] text-black/50'
-              }`}
-              title="Acierta casos seguidos para multiplicar tus puntos"
-            >
-              <Flame
-                className={`w-4 h-4 ${
-                  streak > 0 ? 'text-[#80FF44] fill-[#80FF44]' : 'text-black/40'
-                }`}
-              />
-              <span>Racha x{streak}</span>
-            </div>
+            {streak > 0 && (
+              <div
+                className="border-3 border-black px-2.5 py-1 text-xs font-black display-font uppercase flex items-center gap-1 transition-all bg-black text-[#80FF44] shadow-[3px_3px_0px_#910a0a]"
+                title="Acierta casos seguidos para multiplicar tus puntos"
+              >
+                <Flame className="w-4 h-4 text-[#80FF44] fill-[#80FF44]" />
+                <span>Racha x{streak}</span>
+              </div>
+            )}
 
             <div className="bg-white border-3 border-black px-3 py-1 shadow-[3px_3px_0px_#0a0a0a] flex items-center gap-1.5">
               <Trophy className="w-4 h-4 text-[#910a0a]" />
