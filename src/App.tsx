@@ -482,7 +482,7 @@ export function App() {
                   onClick={handleVerifyAnswer}
                   className="brutal-btn px-8 py-4 text-sm md:text-base w-full sm:w-auto"
                 >
-                  <span>Tomar Decisión Legal</span>
+                  <span>Responder</span>
                 </button>
               </div>
             )}
