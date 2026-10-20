@@ -226,8 +226,8 @@ export function App() {
             className="flex items-center gap-2.5 bg-white border-3 border-black px-3 py-1.5 shadow-[4px_4px_0px_#910a0a] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_#910a0a] transition-all cursor-pointer"
           >
             <img src="./Branding/ticio.svg" alt="Ticio" className="h-6 w-6" />
-            <span className="display-font text-base md:text-lg font-black tracking-widest">
-              TICIO<span className="text-[#910a0a]">RETO</span>
+            <span className="display-font text-base md:text-lg font-black tracking-widest text-black">
+              TICIO
             </span>
           </button>
 
