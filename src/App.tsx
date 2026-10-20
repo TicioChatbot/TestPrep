@@ -286,11 +286,6 @@ export function App() {
         <main className="flex-1 flex flex-col justify-center px-4 py-10">
           <div className="max-w-3xl mx-auto w-full space-y-8">
             <div className="brutal-card p-6 md:p-12 bg-white space-y-6">
-              <div className="inline-flex items-center gap-2 bg-black text-white px-3 py-1 text-xs font-black display-font uppercase tracking-widest">
-                <Scale className="w-4 h-4 text-[#80FF44]" />
-                <span>El Reto Viral Jurídico · Colombia</span>
-              </div>
-
               <h1 className="display-font text-3xl sm:text-5xl font-black uppercase leading-[1.06]">
                 ¿Podrías ser un{' '}
                 <span className="bg-black text-[#faf8f4] px-3 py-1 inline-block transform -rotate-1 text-[#80FF44] mt-1">
